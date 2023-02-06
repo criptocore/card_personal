@@ -1,0 +1,127 @@
+.body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 1.5rem;
+   background-image: url(/img/background_planetas.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   margin: 0;
+   min-height: 100vh;
+
+}
+
+
+.header {
+display: flex;
+}
+.header__image-container {
+   /* div */
+display: flex;
+max-width: 256px;
+border-radius: 50%;
+overflow: hidden;
+margin: 0;
+
+}
+.header__figure {
+/* figure */
+}
+
+.header__image {
+/* img */
+width: 100%;
+}
+
+.main {
+display: flex;
+
+}
+
+.article {
+display: flex;
+}
+
+.article-container {
+/* primer div */
+display: flex;
+padding: 0 2rem ;
+}
+.article__card {
+/* segundo div */
+display: flex;
+flex-direction: column;
+gap: 0.75rem;
+background-color: #16181bdf;
+max-width: 256px;
+padding: 1rem;
+border-radius: 0.5rem;
+box-sizing: border-box;
+
+}
+
+
+.article__card-title {
+/* h1 */
+font-size: 1.5rem;
+text-align: center;
+margin: 0;
+}
+
+.article__card-keywords {
+/* h2 */
+font-size: 1rem;
+text-align: center;
+margin: 0;
+}
+
+.article__card-description {
+/* p */
+
+font-size: 0.85rem;
+text-align: center;
+margin: 0;
+}
+
+.footer {
+   
+
+}
+
+.footer-nav {
+   
+   display: flex;
+}
+
+.footer-nav-container {
+   /* div */
+   display: flex;
+}
+
+.footer-nav__link-list {
+   /* ul */
+   display: flex;
+   gap: 1rem;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.footer-nav__link-item {
+   /* li */
+   display: flex;
+}
+
+.footer-nav__link {
+   /* a */
+   display: flex;
+   width: 1.75rem;
+
+}
+
+.footer-nav__link-image {
+   /* img */
+   width: 100%;
+}
