@@ -7,7 +7,7 @@
    background-image: url(/img/background_planetas.jpg);
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover; 
+   background-size: cover;
    margin: 0;
    min-height: 100vh;
 
@@ -15,83 +15,82 @@
 
 
 .header {
-display: flex;
+   display: flex;
 }
-.header__image-container {
-   /* div */
-display: flex;
-max-width: 256px;
-border-radius: 50%;
-overflow: hidden;
-margin: 0;
 
-}
-.header__figure {
-/* figure */
+.header__image-container {
+   /* figure */
+   display: flex;
+   max-width: 256px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin: 0;
+
 }
 
 .header__image {
-/* img */
-width: 100%;
+   /* img */
+   width: 100%;
 }
 
 .main {
-display: flex;
+   display: flex;
 
 }
 
 .article {
-display: flex;
+   display: flex;
 }
 
 .article-container {
-/* primer div */
-display: flex;
-padding: 0 2rem ;
+   /* primer div */
+   display: flex;
+   padding: 0 2rem;
 }
+
 .article__card {
-/* segundo div */
-display: flex;
-flex-direction: column;
-gap: 0.75rem;
-background-color: #16181bdf;
-max-width: 256px;
-padding: 1rem;
-border-radius: 0.5rem;
-box-sizing: border-box;
+   /* segundo div */
+   display: flex;
+   flex-direction: column;
+   gap: 0.75rem;
+   background-color: #16181bdf;
+   max-width: 256px;
+   padding: 1rem;
+   border-radius: 0.5rem;
+   box-sizing: border-box;
 
 }
 
 
 .article__card-title {
-/* h1 */
-font-size: 1.5rem;
-text-align: center;
-margin: 0;
+   /* h1 */
+   font-size: 1.5rem;
+   text-align: center;
+   margin: 0;
 }
 
 .article__card-keywords {
-/* h2 */
-font-size: 1rem;
-text-align: center;
-margin: 0;
+   /* h2 */
+   font-size: 1rem;
+   text-align: center;
+   margin: 0;
 }
 
 .article__card-description {
-/* p */
+   /* p */
 
-font-size: 0.85rem;
-text-align: center;
-margin: 0;
+   font-size: 0.85rem;
+   text-align: center;
+   margin: 0;
 }
 
 .footer {
-   
+   display: flex;
 
 }
 
 .footer-nav {
-   
+
    display: flex;
 }
 
@@ -118,7 +117,13 @@ margin: 0;
    /* a */
    display: flex;
    width: 1.75rem;
+   transition: all 0.25s;
 
+}
+
+.footer-nav__link:hover {
+   filter: brightness(150%);
+   transform: scale(1.25);
 }
 
 .footer-nav__link-image {
